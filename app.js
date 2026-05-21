@@ -24,16 +24,30 @@ if (temperatura > 30) {
 } else {
     console.log("El clima está agradable");
 }
-let dinero = 150;
-if (dinero >= 100) {
-    console.log("Puedo comprarme unos audifonos");
+let dinero = 500;
+if (dinero >= 600) {
+    console.log("Puedo comprarme una mochila");
 } else {
     console.log ("No me alcanza");
 
 }
-let contraseña= "1234";
-if (contraseña == "1234") {
-    console.log("Acceso permitido");
+let contraseña= "4321";
+if (contraseña == "4321") {
+    console.log("Adelante");
 } else {
     console.log("Denegado");
+}
+let calificacion = 85;
+
+if (calificacion >= 70) {
+    console.log("Aprobaste la materia");
+} else {
+    console.log("Reprobaste la materia");
+}
+let trabajo = 8;
+console.log ("Mi horario " + trabajo + " horas");
+if (trabajo >= 8) {
+    console.log("Horas extras");
+} else {
+    console.log("Jornada normal o menor");
 }
