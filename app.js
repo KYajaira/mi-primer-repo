@@ -68,3 +68,10 @@ function ComidaFavorita(Comida) {
 
     ComidaFavorita("Hamburguesa");
     ComidaFavorita("Chile Relleno");
+
+    function mostrarciudad(ciudad) {
+        console.log("La ciudad que quiero conocer es " + ciudad);
+
+               
+    }
+    mostrarciudad("San Luis Potosi " + "y " + "Chiapas ");
