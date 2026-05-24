@@ -51,3 +51,20 @@ if (trabajo >= 8) {
 } else {
     console.log("Jornada normal o menor");
 }
+function saludar() {
+    console.log("Hola Karen");
+}
+
+saludar();
+function mostrarEdad(edad) {
+    console.log("Tu edad es " + edad);
+}
+
+mostrarEdad(22);
+mostrarEdad(30);
+function ComidaFavorita(Comida) {
+    console.log("Mi comida favorita es " + Comida);
+    }
+
+    ComidaFavorita("Hamburguesa");
+    ComidaFavorita("Chile Relleno");
