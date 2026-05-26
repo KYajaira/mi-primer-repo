@@ -101,3 +101,17 @@ panes.push("Dona");
 
 console.log(panes);
 console.log(panes.length);
+
+let canciones = ["Sol en dia nublado", "Todo va estar bien", "Encontrarte"];
+console.log(canciones);
+
+console.log(canciones[0]);
+console.log(canciones[1]);
+console.log(canciones[2]);
+
+console.log(canciones.length);
+console.log(canciones[0]);
+console.log(canciones[panes.length - 1]);
+canciones.push("Promesas");
+console.log(canciones);
+console.log(canciones.length);
