@@ -69,9 +69,35 @@ function ComidaFavorita(Comida) {
     ComidaFavorita("Hamburguesa");
     ComidaFavorita("Chile Relleno");
 
+
+    
+
     function mostrarciudad(ciudad) {
         console.log("La ciudad que quiero conocer es " + ciudad);
 
                
     }
     mostrarciudad("San Luis Potosi " + "y " + "Chiapas ");
+
+    let videojuegos = ["Minecraft", "Fortnite", "Mario Kart"];
+
+console.log(videojuegos);
+
+console.log(videojuegos[0]);
+console.log(videojuegos[1]);
+console.log(videojuegos[2]);
+
+let PanFavorito = ["Concha", "Cuernito", "Mantecada"];
+console.log(PanFavorito[0]);
+console.log(PanFavorito[1]);
+console.log(PanFavorito[2]);
+let panes = ["Concha", "Cuernito", "Mantecada"];
+
+console.log(panes.length);
+
+console.log(panes[0]);
+console.log(panes[panes.length - 1]);
+panes.push("Dona");
+
+console.log(panes);
+console.log(panes.length);
