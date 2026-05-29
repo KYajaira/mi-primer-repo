@@ -115,3 +115,15 @@ console.log(canciones[panes.length - 1]);
 canciones.push("Promesas");
 console.log(canciones);
 console.log(canciones.length);
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+for (let i = 0; i < canciones.length; i++) {
+    console.log(canciones[i]);
+}
+
+let ciudades = ["Cancún", "Mérida", "Chiapas", "San Luis Potosí"];
+for (let i = 0; i < ciudades.length; i++) {
+    console.log(ciudades[i])
+}
