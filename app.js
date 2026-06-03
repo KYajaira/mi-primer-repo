@@ -127,3 +127,59 @@ let ciudades = ["Cancún", "Mérida", "Chiapas", "San Luis Potosí"];
 for (let i = 0; i < ciudades.length; i++) {
     console.log(ciudades[i])
 }
+
+let series = ["El peso del amor", "Defensores de fantasmas", "Alquimia de almas", "Como se traduce este amor", "Aterrizaje de emergencia en tu corazón"];
+for (let i = 1; i < series.length; i++) {
+    console.log(series[i])
+}
+ let persona = {
+    nombre: "Karen",
+    edad: 22,
+    ciudad: "Cancún"
+};
+console.log(persona.nombre);
+console.log(persona.edad);
+console.log(persona.ciudad);
+
+let chatarra = {
+    nombre: "esquite",
+    tipo: "preparado",
+    precio: 75
+};
+
+console.log(chatarra.nombre);
+console.log(chatarra.tipo);
+console.log(chatarra.precio);
+
+let seriefavorita = {
+    nombre: "La corona perfecta",
+    pais: "Corea del sur",
+    capitulos: 10,
+      
+};
+
+console.log(seriefavorita.nombre);
+    console.log(seriefavorita.pais);
+    console.log(seriefavorita.capitulos);
+
+    let seriesNetflix = [
+    {
+        nombre: "La corona perfecta",
+        pais: "Corea del Sur",
+        capitulos: 10
+    },
+    {
+        nombre: "Alquimia de Almas",
+        pais: "Corea del Sur",
+        capitulos: 30
+    },
+    {
+        nombre: "Aterrizaje de emergencia en tu corazón",
+        pais: "Corea del Sur",
+        capitulos: 16
+    }
+];
+console.log(seriesNetflix[0].nombre);
+for (let i = 0; i < seriesNetflix.length; i++) {
+    console.log("Serie: " + seriesNetflix[i].nombre);
+}
