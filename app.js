@@ -270,7 +270,7 @@ for (let i = 1; i < empleados.length; i++) {
 console.log("Empleado con menos horas: " + menor.nombre);
 console.log("Horas trabajadas: " + menor.horas);
 
-let nombreBuscado = "Juan";
+let nombreBuscado = "Samantha";
 
 for (let i = 0; i < empleados.length; i++) {
 
