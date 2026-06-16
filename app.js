@@ -161,8 +161,7 @@ let seriefavorita = {
 console.log(seriefavorita.nombre);
     console.log(seriefavorita.pais);
     console.log(seriefavorita.capitulos);
-
-    let seriesNetflix = [
+let seriesNetflix = [
     {
         nombre: "La corona perfecta",
         pais: "Corea del Sur",
@@ -179,7 +178,108 @@ console.log(seriefavorita.nombre);
         capitulos: 16
     }
 ];
+
 console.log(seriesNetflix[0].nombre);
+
 for (let i = 0; i < seriesNetflix.length; i++) {
     console.log("Serie: " + seriesNetflix[i].nombre);
+}
+
+for (let i = 0; i < seriesNetflix.length; i++) {
+    if (seriesNetflix[i].capitulos > 15) {
+        console.log(seriesNetflix[i].nombre);
+    }
+}
+let contador = 0;
+
+for (let i = 0; i < seriesNetflix.length; i++) {
+
+    if (seriesNetflix[i].capitulos > 15) {
+        contador++;
+    }
+
+}
+
+console.log("Series con más de 15 capítulos: " + contador);
+
+let empleados = [
+    {
+        nombre: "Gabriel",
+        horas: 6
+    },
+    {
+        nombre: "Juan",
+        horas: 10
+    },
+    {
+        nombre: "Samantha",
+        horas: 9
+    },
+    {
+        nombre: "Yajaira",
+        horas: 7
+    }
+];
+
+for (let i = 0; i < empleados.length; i++) {
+
+    if (empleados[i].horas < 8) {
+        console.log(empleados[i].nombre);
+    }
+
+    if (empleados[i].horas == 8) {
+        console.log(empleados[i].nombre);
+       }
+
+}
+let totalHoras = 0;
+
+for (let i = 0; i < empleados.length; i++) {
+    totalHoras = totalHoras + empleados[i].horas;
+}
+
+console.log("Total de horas trabajadas: " + totalHoras);
+
+let promedio = totalHoras / empleados.length;
+
+console.log("Promedio de horas: " + promedio);
+
+let mayor = empleados[0];
+
+for (let i = 1; i < empleados.length; i++) {
+
+    if (empleados[i].horas > mayor.horas) {
+        mayor = empleados[i];
+    }
+
+}
+
+console.log("Empleado con más horas: " + mayor.nombre);
+console.log("Horas trabajadas: " + mayor.horas);
+
+let menor = empleados[0];
+
+for (let i = 1; i < empleados.length; i++) {
+
+    if (empleados[i].horas < menor.horas) {
+        menor = empleados[i];
+    }
+
+}
+
+console.log("Empleado con menos horas: " + menor.nombre);
+console.log("Horas trabajadas: " + menor.horas);
+
+let nombreBuscado = "Juan";
+
+for (let i = 0; i < empleados.length; i++) {
+
+    if (empleados[i].nombre == nombreBuscado) {
+
+        console.log("Empleado encontrado:");
+        console.log(empleados[i].nombre);
+        console.log(empleados[i].horas);
+
+    }
+
 }
