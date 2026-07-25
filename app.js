@@ -245,11 +245,13 @@ let promedio = totalHoras / empleados.length;
 console.log("Promedio de horas: " + promedio);
 
 let mayor = empleados[0];
+let encontrado = false;
 
 for (let i = 1; i < empleados.length; i++) {
 
     if (empleados[i].horas > mayor.horas) {
         mayor = empleados[i];
+
     }
 
 }
@@ -270,7 +272,8 @@ for (let i = 1; i < empleados.length; i++) {
 console.log("Empleado con menos horas: " + menor.nombre);
 console.log("Horas trabajadas: " + menor.horas);
 
-let nombreBuscado = "Samantha";
+let nombreBuscado = "Pedro";
+encontrado = false;
 
 for (let i = 0; i < empleados.length; i++) {
 
@@ -280,6 +283,32 @@ for (let i = 0; i < empleados.length; i++) {
         console.log(empleados[i].nombre);
         console.log(empleados[i].horas);
 
+        encontrado = true;
     }
+}
 
+if (encontrado == false) {
+    console.log("Empleado no encontrado");
+}
+
+let productos = [
+    {
+        nombre: "Laptop",
+        precio: 15000,
+        stock: 5
+    },
+    {
+        nombre: "Mouse",
+        precio: 300,
+        stock: 20
+    },
+    {
+        nombre: "Teclado",
+        precio: 800,
+        stock: 10
+    }
+];
+
+for (let i = 0; i < productos.length; i++) {
+    console.log(productos[i].nombre);
 }
