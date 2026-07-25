@@ -312,3 +312,51 @@ let productos = [
 for (let i = 0; i < productos.length; i++) {
     console.log(productos[i].nombre);
 }
+for (let i = 0; i < productos.length; i++) {
+
+    console.log("Producto: " + productos[i].nombre);
+    console.log("Precio: $" + productos[i].precio);
+
+}
+
+let Tienda = [
+    {
+        nombre: "Pan",
+        Costo: 45,
+        Stock: 17
+    },
+{     
+        nombre: "Coca Cola",
+        Costo: 52,
+        Stock: 25
+}, 
+        {
+            nombre: "Lacteos",
+            Costo: 32,
+            Stock: 10
+        },
+{
+         nombre: "Jabon",
+        Costo: 12,
+        Stock: 2
+
+},
+
+{
+        nombre: "Higienico",
+        Costo:  21,
+        Stock: 3
+        
+        
+    }
+    ];
+
+    for (let i = 0; i < Tienda.length; i++) {
+    console.log(Tienda[i].nombre);
+}
+for (let i = 0; i < Tienda.length; i++) {
+
+    console.log("Producto: " + Tienda[i].nombre);
+    console.log("Costo: $" + Tienda[i].Costo);
+
+}
