@@ -360,3 +360,47 @@ for (let i = 0; i < Tienda.length; i++) {
     console.log("Costo: $" + Tienda[i].Costo);
 
 }
+let MayorStock = Tienda [0];
+
+for (let i = 0; i < Tienda.length; i++) {
+
+    if (Tienda[i].Stock > MayorStock.Stock) {
+        MayorStock = Tienda[i];
+
+    }
+
+    
+}
+
+    console.log("Producto con mayor stock:" + MayorStock.nombre);
+    console.log("Stock: " + MayorStock.Stock);
+
+    let MenorPrecio = Tienda [0];
+
+for (let i = 0; i < Tienda.length; i++) {
+
+    if (Tienda[i].Costo < MenorPrecio.Costo) {
+        MenorPrecio = Tienda[i];
+
+    }
+
+    
+}
+
+    console.log("Producto con menor precio:" + MenorPrecio.nombre);
+    console.log("Costo: " + MenorPrecio.Costo);
+
+    let MayorPrecio = Tienda [0];
+
+for (let i = 0; i < Tienda.length; i++) {
+
+    if (Tienda[i].Costo > MayorPrecio.Costo) {
+        MayorPrecio = Tienda[i];
+
+    }
+
+    
+}
+
+    console.log("Producto con mayor precio:" + MayorPrecio.nombre);
+    console.log("Costo: " + MayorPrecio.Costo);
